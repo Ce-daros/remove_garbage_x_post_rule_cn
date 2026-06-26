@@ -1,0 +1,51 @@
+{
+"schemaVersion": 1,
+"rulesVersion": "2026-05-30.1",
+"updatedAt": "2026-05-30T00:00:00Z",
+"contentKeywords": [
+"万达广场",
+"有弟弟",
+"万达附近",
+"顶不住@"
+],
+"nameKeywords": [
+"㊙️",
+"男士",
+"电报",
+"涩播",
+"免费",
+"返佣",
+"兄妹",
+"主页",
+"彩票",
+"博彩",
+"百家",
+"足彩",
+"找固"
+],
+"regexKeywords": [
+"content:(?<![\s\S])(?=[\s\S]{1,200}(?![\s\S]))(?=(?:[\s\S]*(?:\p{Extended_Pictographic}|\p{Emoji_Presentation})){4,})(?=[\s\S]*(\p{Extended_Pictographic}|\p{Emoji_Presentation})[\s\S]*(?!\1)(?:\p{Extended_Pictographic}|\p{Emoji_Presentation}))[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{1,100}(?![\s\S]))(?=[\s\S]*想找个)[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{1,25}(?![\s\S]))(?![\s\S]*(?:🏳️‍⚧️|🏳️‍🌈|⚧|[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]))(?=(?:[\s\S]*[^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s]){4,})[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{1,25}(?![\s\S]))(?![\s\S]*(?:🏳️‍⚧️|🏳️‍🌈|⚧))(?=.*\p{Script=Han})(?=(?:[\s\S]*[^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s]){4,})(?=[\s\S]*([^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s])[\s\S]*(?!\1)[^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s])[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{1,80}(?![\s\S]))(?![\s\S]*(?:🏳️‍⚧️|🏳️‍🌈|⚧|[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]))(?=(?:[\s\S]*(?:\p{Extended_Pictographic}|\p{Emoji_Presentation}|[\u0F00-\u0FFF\u2460-\u24FF\u2776-\u2793\u2E00-\u2E7F\u3016-\u301B\u3021-\u3029\u3038-\u303A\u3200-\u33FF\uA640-\uA69F\u{1F100}-\u{1F1FF}]|[^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s])){5,})[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{1,80}(?![\s\S]))(?=[\s\S]*(?:哥哥|弟弟))(?=(?:[\s\S]*(?:\p{Extended_Pictographic}|\p{Emoji_Presentation})){2,})[\s\S]+",
+"content:附近的(?:gg|dd|哥哥|弟弟)",
+"content:(?<![\s\S])(?=[\s\S]{1,50}(?![\s\S]))(?=[\s\S]*有[\s\S]{0,12}哥哥)[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]{8,120}(?![\s\S]))(?![\s\S]*(?:🏳️‍⚧️|🏳️‍🌈|⚧|[\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]))(?:[\s\S]{0,2}(?:\p{Extended_Pictographic}|\p{S}|[\u27C0-\u2BFF]|[^\p{Letter}\p{Number}\p{Punctuation}\p{Separator}\p{Mark}\p{Cf}\s])){5,}[\s\S]{0,2}",
+"content:^(?=.{1,9}$)(?!.*(?:🏳️‍⚧️|🏳️‍🌈|⚧))(?!.*\p{Script=Han})(?=.*[\p{Extended_Pictographic}])(?=.*[!-~])(?:[\p{Extended_Pictographic}\uFE0F\u200D]|[!-~]|\s)+$",
+"content:(?:顶不住\s{1,5}@[a-zA-Z0-9]+)",
+"content:(?<![\s\S])(?=[\s\S]*[\u4e00-\u9fa5])(?=[\s\S]*\s{1,5}@[a-zA-Z0-9_]+)[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]*快手)(?=[\s\S]*直播)[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]*快手)(?=[\s\S]*[\(（])(?=[\s\S]*[\)）])[\s\S]+",
+"content:(?<![\s\S])(?=[\s\S]*想被爱)(?=[\s\S]*分手)[\s\S]+",
+"content:(?=[\s\S]*(?:sao|涩|能打|顶不住))(?=[\s\S]*@[\s\p{Cf}]{0,8}[A-Za-z0-9_]{1,15})[\s\S]{1,280}",
+"content:(?<![\s\S])\s*(?![\s\S]*(?:🏳️‍⚧️|🏳️‍🌈|⚧))\p{Extended_Pictographic}[\s\S]{0,12}\p{Extended_Pictographic}\s*(?![\s\S])"
+],
+"referralProfileRegexKeywords": [
+"profile:(?=[\s\S]*(?:\p{Extended_Pictographic}|\p{Emoji_Presentation}))(?=[\s\S]*(?:https?:\/\/|t\.co\/|(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,}(?:\/[A-Za-z0-9._~:/?#[\]@!$&'()*+,;=%-]*)?))[\s\S]{1,280}"
+],
+"hideOnlyRegexKeywords": [
+"content:^[!-~]$"
+]
+}
